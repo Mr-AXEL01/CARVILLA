@@ -243,8 +243,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 /*.welcome-hero-txt*/
 .welcome-hero-txt{text-align: center;padding:290px 0 372px;}
 .welcome-hero-txt h2 {
-    font-size: 52px;
-    color: #0d0202;
+    font-size: 90px;
+    text-align: right;
+    color: #cdccd1;
     font-weight: 700;
     text-align: left;
     text-transform: uppercase;
@@ -262,7 +263,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     display: inline-block;
     width: 230px;
     height: 60px;
-    background: #4e4ffa;
+    background: #434362;
     color: #fff;
     border-radius: 63px;
     margin-top: 55px;
