@@ -225,7 +225,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 --------------------------------------*/
 .welcome-hero {
     position: relative;
-    background:url(../images/welcome-hero/AA.png)no-repeat;
+    background:url(../images/welcome-hero/AA.png) no-repeat;
     background-position: center;
     background-size: 100%;
     z-index: 1;
@@ -286,8 +286,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 .model-search-content .col-sm-12 {padding: 0;}
 .model-search-content {
     padding: 40px 0;
-    background: #5382d3;
-    box-shadow:0 10px 40px 0px rgba(38,40,64,.2);
+    background: #0204073e;
+    box-shadow: 0 12px 30px 0px rgba(186, 186, 197, 0.2);
     position: absolute;
     bottom: -150px;
     width: 100%;
@@ -295,7 +295,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 }
 
 /*.single-model-search*/
-.single-model-search{margin-bottom: 30px;}
+.single-model-search{margin-bottom: 20px;}
 .single-model-search:last-child {margin-bottom: 0;}
 
 .single-model-search h2 {
@@ -310,9 +310,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 }
 .model-select-icon .form-control {
     outline: 0!important;
-    box-shadow: none;
+    bbox-shadow: 0 12px 30px 0px rgba(186, 186, 197, 0.2);
     border: 1px solid #f8f8f8;
-    background: #f8f8f8;
+    background: #0a0505c9;
     height: 60px;
 }
 .model-select-icon select {
@@ -327,7 +327,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     top: 0;
     font-size: 10px;
     color: #888f9d;
-    background: #f8f8f8;
+    background: #06030333;
     height: 60px;
     line-height: 60px;
     width: 50px;
@@ -354,7 +354,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     padding:55px 30px 60px;
     border-radius: 3px;
     margin-bottom: 30px;
-    border: 1px solid #dadfe9;
+    border: 1px solid #b42599;
     -webkit-transition: .3s linear; 
     -moz-transition:.3s linear; 
     -ms-transition:.3s linear; 
@@ -364,7 +364,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 
 .single-service-icon {
     display: inline-block;
-    color: #50616c;
+    color: #506b6c;
 }
 .single-service-item h2 a {
     font-size:20px;
@@ -377,7 +377,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     content: "";
     width: 20px;
     height: 3px;
-    background: #3030ea;
+    background: #47bedf;
     bottom: 0;
     left: 50%;
     margin-left: -10px;
@@ -389,7 +389,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 
 .single-service-item:hover h2 a,.single-service-item:hover p{color: #fff;}
 .single-service-item:hover  p:before {background: #fff;}
-.single-service-item:hover{box-shadow: 0 12px 30px 0px rgba(0,1,193,.2);background: #4e4ffa;border: 1px solid #4e4ffa;}
+.single-service-item:hover{box-shadow:0 12px 30px 0px rgba(186, 186, 197, 0.2); background: rgba(0, 0, 0, 0.6);}
 
 
 /*-------------------------------------
@@ -432,7 +432,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
         7. Featured-cars
 --------------------------------------*/
 .featured-cars{
-    padding:112px 0 120px;
+    /* background: url(../images/welcome-hero/toyota-2024-supra-3.0-renaissance-red-2.0-rear-l.jpg); */
+    /* padding:112px 0 120px; */
+    padding-top: 112px;
+    /* padding-bottom: 0; */
 }
 .featured-cars-content{padding-top:96px;}
 
@@ -466,13 +469,13 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 /*-------------------------------------       
         8. Clients-say 
 --------------------------------------*/
-.clients-say{padding:115px 0 80px;background: #f8f9fb;}
+.clients-say{padding:115px 0 80px;background: #000000;}
 
 /*single-testimonial-box */
 .single-testimonial-box  {
     padding: 50px 30px 57px;
     text-align: center;
-    border: 1px solid #dadfe9;
+    border: 1px solid #891ab2;
     overflow-x: hidden;
     -webkit-transition: .3s; 
     -moz-transition:.3s; 
@@ -499,7 +502,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 }
 .testimonial-person h2 a,.testimonial-person h4 {
     font-size: 16px;
-    color: #5e6778;
+    color: #d07bc5;
     font-weight: 600;
 }
 .testimonial-person h4{
@@ -510,7 +513,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 /* testimonial-comment */
 .testimonial-comment p {
     font-size: 16px;
-    color: #5e6778;
+    color: #51bfdd8d;
     margin-top: 30px;
     margin-bottom: 25px;
 }/* testimonial-comment */
@@ -519,9 +522,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 /*testimonial-description*/
 .single-testimonial-box:hover h2 a,.single-testimonial-box:hover h4, .single-testimonial-box:hover p{color: #fff;}
 .single-testimonial-box:hover{
-    background: #4e4ffa;
-    border: 1px solid #4e4ffa;
-    box-shadow: 0 12px 30px 0px rgba(0,1,193,.2);
+    background: #4c9ad644;
+    border: 1px solid #6c6ccc;
+    box-shadow: 0 12px 30px 0px rgba(186, 186, 197, 0.2);
 }
 
 /*owl carousel*/
@@ -566,6 +569,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 --------------------------------------*/
 .contact {
     background: #2a2d54;
+    height: 100vh;
 }
 .footer-top {padding: 112px 0 72px;}
 
