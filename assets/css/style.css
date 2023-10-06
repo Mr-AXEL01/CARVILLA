@@ -310,7 +310,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 }
 .model-select-icon .form-control {
     outline: 0!important;
-    bbox-shadow: 0 12px 30px 0px rgba(186, 186, 197, 0.2);
+    box-shadow: 0 12px 30px 0px rgba(186, 186, 197, 0.2);
     border: 1px solid #f8f8f8;
     background: #0a0505c9;
     height: 60px;
